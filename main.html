@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- header section -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="aboutpage" href="about.html">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -14,86 +16,52 @@
         <a href="#home" class="logo">
         Dilshan <span>Hirimuthugoda</span></a>
        <i class="bx bx-menu" id="menu-icon"></i>
+       <!-- navigation bar -->
        <nav class="navbar">
-       <a href="Home">Home</a>
-       <a href="About" >About</a>
-       <a href="Blog" >Blog</a>
-       <a href="Projects" >Projects</a>
+       <a href="#home">Home</a>
+       <a href="about.html" >About</a>
+       <a href="projects & Services.html" >Projects & Services</a>
+       <a href="Contact.html" >Contact</a>
     </nav>
-    <button class="gradiant-btn">Contact Me</button>
+    <a href="#contact"><button class="gradiant-btn button-contact"></button></a>
     </header>
 
+    <!-- home content section -->
     <section class="home" id="home">
-        <div class="home-content">
+        <class class="home-content">
             <h1>Hi, It's<span>Dilshan</span></h1>
-               <h3> I'm a <span> Web Devoloper</span></h3>
-               <p>You’re an innovative tech enthusiast working on smart solutions
-                 like waste management and parking systems, 
-                 aiming to make impactful, efficient designs.</p>
+               <h3 class="text-animation"> I'm a <span></span></h3>
+               <p>Welcome to my Portfolio!
+                Through this portfolio, I invite you to explore my projects that showcase my creativity, 
+                technical skills, and dedication to excellence in the ever-evolving tech landscape.</p>
+                <!-- socil meadia section -->
             <div class="Socialicon">
-                <a href="#">
+                <a href="https://github.com/dashboard">
                 <i class="bx bxl-github"></i> 
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
                     <i class="bx bxl-linkedin-square"></i>
                 </a>
-            <a href="#">
+            <a href="">
                 <i class="bx bxl-instagram-alt"></i>
             </a>
             <a href="#">
                 <i class="bx bxl-twitter"></i>
             </a>
             </div>
+            
             <div class="btn-group">
-            <a href="#" class="btn">Hire</a>
-            <a href="#contact" class="btn">Contact</a>
+            <a href="#contact" class="btn button-contact"></a>
             </div>
-        </div>
+        </class>
             <div class="home-img">
                 <img src="picture.jpeg" alt="img">
             </div>
+            
     </section>
     
-
-
-    
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact<span>Me</span></h2>
-
-        <form action="#">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="input-box">
-                    <input type="tel" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
-                </div>
-            </div>
-            <div class="input-group-2">
-                <textarea name="" id="" placeholder="Message" cols="30" rows="10"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-
-            </div>
-        </form>
-    </section>
-
+    <!-- footer section -->
     <footer class="footer">
-        <div class="Socialicon">
-            <a href="#">
-            <i class="bx bxl-github"></i> 
-            </a>
-            <a href="#">
-                <i class="bx bxl-linkedin-square"></i>
-            </a>
-        <a href="#">
-            <i class="bx bxl-instagram-alt"></i>
-        </a>
-        <a href="#">
-            <i class="bx bxl-twitter"></i>
-        </a>
-        </div>
         <ul class="list">
             <li>
                 <a href="#">FAQ</a>
@@ -102,13 +70,13 @@
                 <a href="#home">Home</a>
             </li>
             <li>
-                <a href="#about">About Me</a>
+                <a href="about.html">About Me</a>
             </li>
             <li>
-                <a href="#projects">Projects & Services</a>
+                <a href="projects & Services.html">Projects & Services</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="Contact.html">Contact</a>
             </li>
         </ul>
         <p class="copyright">
@@ -116,11 +84,7 @@
         </p>
     </footer>
 
-    <script src="script.js"></script>
-</body>
-</html>
- 
-
+    <!-- java script section -->
     <script src="script.js"></script>
 </body>
 </html>
